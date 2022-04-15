@@ -1,0 +1,35 @@
+*{
+  border:0px;
+  margin:0px;
+  padding: 0px;
+}
+body{
+  background-color:#15141a;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+
+}
+.menu{
+  margin-top: 10px;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+  transition: 0.3s;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+li + li{
+  margin-left: 30px;
+}
+
+img:hover{
+  transform: translateY(-10px);
+  /* border-bottom: solid #9966ff 5px; */
+}

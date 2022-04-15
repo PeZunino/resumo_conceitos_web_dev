@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <h2 class="title">HTML</h2>
+
+  <div>
+    <h3 class="subtitle">Parágrafos</h3>
+    <span>São reconhecidos pelo elemento <b>&ltp&gt</b></span>
+    <p>
+      Este texto está em um parágrafo. Note que diferente da elementos &ltspan&gt
+      a elementos &ltp&gt possui atributos próprios como por exemplo o espaçamento.
+    </p>
+    <img src="../../assets/html/paragrafo.png" alt="paragrafo ilustração">
+  </div>
+
+
+  <div>
+    <h3 class="subtitle">Âncoras</h3>
+    <span>São reconhecidos pelo elemento <b>&lta&gt</b></span>
+    <p>
+      Os elementos a precisam de um endereço (link) que é colocado no atributo href. 
+      Eles também precisam de um texto que servirá de "âncora".    
+      <a href="https://www.google.com/">Âncora</a> para a página principal do google.
+      <a href="https://www.google.com/" target="_blank">Este</a> 
+      por sua vez abrirá como uma nova página devido ao atributo <b>target="_blank".</b>
+      É possível criar um target para elementos dentro do próprio HTML. 
+      <a href="#about_form">Mova para explicações sobre o elemento Form.</a>
+       
+    </p>
+    <img src="../../assets/html/ancora.png" alt="paragrafo ilustração">
+  </div>
+
+  <div>
+    <h3 class="subtitle">Lorem Ipsum</h3>
+    <span>É utilizado no mundo todo para preencher espaços em publicações antes da inserção do conteúdo real.</span>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.    </p>
+  </div>
+  
+  <div>
+    <h3 class="subtitle" id="about_form">Form</h3>
+    <span>São reconhecidos pelo elemento <b>&ltform&gt</b></span>
+
+    <p>
+      Você pode criar formulários que enviam dados a um servidor usando apenas HTML puro. 
+      Você pode fazer isso especificando o atributo <b>action</b>
+      A navegação ocorre com disparos vindos de botões ou inputs 
+    </p>
+    <img src="../../assets/html/form.png" alt="paragrafo ilustração">
+
+    <form action="https://www.w3schools.com/html/html_forms.asp">
+      
+      <input type="text" placeholder="confirm for more infos about form">
+      <button type="submit">confirm for more infos about form</button>
+    </form>
+  </div>
+
+
+  <div>
+    <h3 class="subtitle">Input / Label</h3>
+    <span>É possivel realizar caixas de seleção utilizando os elementos <b>&ltlabel&gt</b> e <b>&ltinput&gt</b></span>
+
+    <p>
+      Cada um dos botões de seleção deve estar dentro de seu próprio elemento label.
+      Ao envolver um elemento input em um elemento label, este último vai estar automaticamente associado ao input do botão de seleção em questão.
+      Todos os botões de seleção correspondentes a uma mesma pergunta devem ter o atributo name de mesmo valor para criar um grupo de botões de seleção. Ao criar um grupo de botões de seleção, ao selecionar qualquer um dos botões, os outros serão desmarcados automaticamente, garantindo que apenas uma resposta seja fornecida pelo usuário.
+    </p>
+    <img src="../../assets/html/label.png" alt="paragrafo ilustração">
+
+    <form action="https://www.w3schools.com/html/html_forms.asp">
+      
+      <label for="front_end_developer"> 
+        <input id="#front_end_developer" type="radio" name="frontend">Frontend developer 
+      </label>
+      
+      <label for="#back_end_developer">
+        <input id="#back_end_developer" type="radio" name="frontend">Frontend developer 
+      </label>
+      
+    </form>
+  </div>
+  <!-- <form action="https://www.google.com/">
+    <button type="submit">this button submits the form</button>  
+  </form> -->
+
+</body>
+</html>
