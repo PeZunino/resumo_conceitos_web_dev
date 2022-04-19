@@ -1,22 +1,29 @@
-*{
-  border:0px;
-  margin:0px;
-  padding: 0px;
-}
+
 body{
   background-color:#15141a;
   color: #fff;
   font-family: 'Inter', sans-serif;
-
+  /* border:0px; */
+  /* margin:0px;
+  padding: 0px; */
 }
+
+a{
+  color: #6EBF8B;
+}
+
 .menu{
   margin-top: 10px;
 }
 
-img{
+.logo-img{
   width: 500px;
   height: 300px;
   transition: 0.3s;
+}
+
+.logo-img:hover{
+  transform: translateY(-10px);
 }
 
 ul{
@@ -29,7 +36,15 @@ li + li{
   margin-left: 30px;
 }
 
-img:hover{
-  transform: translateY(-10px);
-  /* border-bottom: solid #9966ff 5px; */
+.example{
+  width: 60%;
+}
+
+.title-html{
+  color:#ee6224
+}
+
+.subtitle{
+  color: #e03661;
+
 }
